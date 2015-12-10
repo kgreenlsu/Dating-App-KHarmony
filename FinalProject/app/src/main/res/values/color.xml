@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="HomePageBackground">#a3f4f8</color>
+    <color name="HomePageBackground2">#d6d4ff</color>
+
+    <color name="NewAccountBG">#ffd55b</color>
+    <color name="NewAccountBGTint">#ffc887</color>
+
+    <color name="NewAccountBG2">#ffe6e3</color>
+
+
+    <color name="Red">#ff0a16</color>
+    <color name="White">#ffffff</color>
+
+    <color name="dark">#a73443</color>
+
+
+    <color name="light">#beff1c</color>
+    <color name="spinnerStyle">#375ca7</color>
+
+
+
+</resources>

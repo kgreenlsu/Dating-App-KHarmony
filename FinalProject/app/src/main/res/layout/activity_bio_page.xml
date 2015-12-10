@@ -1,0 +1,95 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.kgreen.finalproject.BioPage"
+    android:background="#ffae36"
+    android:gravity="center_horizontal">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView4" >
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/lblDirection"
+                android:id="@+id/textView21"
+                android:layout_alignParentTop="true"
+                android:layout_alignLeft="@+id/imageView"
+                android:layout_alignStart="@+id/imageView"
+                android:layout_gravity="center_vertical"
+                android:gravity="center_horizontal" />
+
+            <ImageView
+                android:layout_width="595dp"
+                android:layout_height="221dp"
+                android:id="@+id/imageView"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/icon"
+                android:layout_below="@+id/textView21"
+                android:layout_toRightOf="@+id/btnCapture"
+                android:layout_toEndOf="@+id/btnCapture" />
+
+            <Button
+                android:layout_width="214dp"
+                android:layout_height="wrap_content"
+                android:text="@string/btnCamera"
+                android:id="@+id/btnCapture"
+                android:layout_below="@+id/imageView"
+                android:layout_centerHorizontal="true"
+                android:textSize="30dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/lblBio"
+                android:id="@+id/textView22"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true"
+                android:textColor="#f9010107"
+                android:gravity="center_horizontal"
+                android:textSize="33dp" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="203dp"
+                android:inputType="textMultiLine"
+                android:ems="10"
+                android:id="@+id/editText2"
+                android:background="#fffff8"
+                android:maxLength="250" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Space
+                    android:layout_width="20px"
+                    android:layout_height="20px" />
+
+                <Button
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/btnFinishBio"
+                    android:id="@+id/button"
+                    android:layout_column="19"
+                    android:layout_centerVertical="true"
+                    android:layout_centerHorizontal="true" />
+            </RelativeLayout>
+
+        </TableLayout>
+    </ScrollView>
+
+</RelativeLayout>

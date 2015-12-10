@@ -1,0 +1,149 @@
+<resources>
+    <string name="app_name">KHarmony</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="lblIntro">This could be you...</string>
+    <string name="btnSignIn">Sign-In</string>
+    <string name="btnCreate">Create An Account</string>
+    <string name="title_activity_new_account">New Account</string>
+    <string name="NewAccountLbl">   New Account</string>
+    <string name="lblFirstName">First Name:</string>
+    <string name="lblLast">Last Name:</string>
+    <string name="lblEmail">Email:</string>
+    <string name="lblUsername">Username: </string>
+    <string name="lblPhone">Phone Number: </string>
+    <string name="lblPassword">Password: </string>
+    <string name="lblBirthday">Birthday: </string>
+    <string name="lblGender">Gender: </string>
+    <string name="lblMale">Male</string>
+    <string name="lblFemale">Female</string>
+    <string name="btnNext">Next</string>
+    <string name="title_activity_preferences">Preferences</string>
+    <string name="lblPrefer">Personal Preferences</string>
+    <string name="lblSearch">I am looking for a:</string>
+    <string name="lblStatus">Whose marital status is</string>
+    <string name="lblSingle">Single</string>
+    <string name="lblMarried">Married</string>
+    <string name="lblDivorce">Divorced</string>
+    <string name="lblSeperate">Seperated</string>
+    <string name="lblOrientation">With a sexual orientation of </string>
+    <string name="btnStraight">Straight</string>
+    <string name="btnGay">Gay</string>
+    <string name="btnBisexual">Bisexual</string>
+    <string name="GayBtn">Gay</string>
+    <string name="lblEthnic">Whose ethnicity is </string>
+    <string name="btnAsian">Asian</string>
+    <string name="btnBlack">Black/African</string>
+    <string name="btnWhite">White</string>
+    <string name="btnSpanish">Latin/Spanish</string>
+    <string name="lblEducation">With an education level of </string>
+    <string name="lblYou">You are looking for a  </string>
+    <string name="lblSelected"> was selected</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="lblReligion">Whose religious faith is </string>
+    <string name="lblBody">Who has a body type of</string>
+    <string name="lblAge">Whose age is between</string>
+    <string name="lblHigh">High School</string>
+    <string name="lblCollege">Some type of college education</string>
+    <string name="btnMasters">Masters Degree</string>
+    <string name="btnDropOut">Drop out</string>
+    <string name="lblOther">Other</string>
+    <string name="lblSpiritual">Spiritual</string>
+    <string name="lblChristian">Christian</string>
+    <string name="btnCatholic">Catholic</string>
+    <string name="btnIslam">Islamic</string>
+    <string name="btnSkinny">Skinny</string>
+    <string name="btnThick">Thick</string>
+    <string name="btnMuscular">Muscular</string>
+    <string name="btnBig">Fat</string>
+    <string name="btnYoung">18-25</string>
+    <string name="averageAgeBtn">25-36</string>
+    <string name="btnMiddle">37-45</string>
+    <string name="btnOld">46-65</string>
+    <string name="btnPlus">66+</string>
+    <string name="title_activity_bio_page">Biography Page</string>
+    <string name="lblTagline">Sign-In or Create an account</string>
+    <string name="lblTaglineTwo">to find your date today!</string>
+    <string name="lblDirection">Set your profile picture</string>
+    <string name="btnCamera">Camera</string>
+    <string name="lblBio">Tell us about yourself!</string>
+    <string name="btnFinishBio">Finish</string>
+    <string name="title_activity_personal_profile">Personal Profile</string>
+    <string name="Age">Age :</string>
+    <string name="title_activity_match">Match</string>
+
+
+    <string name ="alertForUN">Your username cannot be less than 6 characters</string>
+    <string name ="alertForBlanks">The first name, last name, username, or password field(s) have been left blank.
+                                    Please fill in these fields.</string>
+    <string name ="alertForPW">Your password cannot be less than 5 characters</string>
+    <string name ="alertForGender">Please tell us if you are looking for a male or a female!</string>
+    <string name ="alertForGender2">Please tell us if you are a male or a female!</string>
+    <string name ="alertForStatus">Please tell us your marital status preference!</string>
+    <string name ="alertForSexOrientation">Please tell us your sexual orientation preference!</string>
+    <string name ="alertForEthnicity">Please tell us your ethnicity preference!</string>
+    <string name ="alertForEducate">Please tell us your education preference!</string>
+    <string name ="alertForReligion">Please tell us your religious preference!</string>
+    <string name ="alertForBody">Please tell us your body type preference!</string>
+    <string name ="alertForAge">Please tell us your age preference!</string>
+    <string name ="alertForDuolicateNames">This username is taken please create a new one</string>
+
+
+    <string name ="asianMatchName">Lucy</string>
+    <string name ="asianMatchNameBio">
+        I was born on December 2, 1968 in Jackson Heights, Queens, New York City.
+        I can speak Mandarin and English. I studied kali-eskrima-silat as a hobby when I was young.
+        I graduated from the University of Michigan in Ann Arbor, Michigan, where I was a member of the Chi Omega sorority.
+    </string>
+
+    <string name ="asianThick">Natalie</string>
+    <string name ="asianThickBio">
+        I am not good with bios but I do take cool pics! :)
+    </string>
+
+    <string name ="asianMuscular">Michelle</string>
+    <string name ="asianMuscle">
+        UFC. 40 never looked so good
+    </string>
+
+    <string name="asianMiddleAged">Shruti</string>
+    <string name ="asain65">My name is Shruti Haasan I am an Indian film actress, singer and musician.
+        Most people know me because of my works in Telugu, Tamil and Hindi films.
+        I am the daughter of Kamal Haasan and Sarika.
+    </string>
+
+    <string name="asianPlus">Zhang Min</string>
+    <string name ="asain66">Chinese. Loving life!</string>
+
+    <string name ="SayHi">Say Hello!</string>
+    <string name ="Lover">Do you want to send love?</string>
+
+    <string name ="SendLove">Send love!</string>
+    <string name ="notification">Congratulations, you have a match!</string>
+    <string name ="ImageSaved">Image Saved</string>
+    <string name="Imagenotification">Please take an picture to move on</string>
+    <string name="ErrorImage">Error during image saving</string>
+
+
+    <string name ="blackyoung"></string>
+    <string name ="ThickBlack">Book me. Follow my IG</string>
+    <string name ="trackRun">I love to run track. I have been doing it for over 10 years!</string>
+    <string name ="fifty">I am 52 and I am loving it</string>
+    <string name ="sixtyBlack">Do not regret losing me! Once you lose me I will be gone forever</string>
+    <string name="title_activity_sign_in">Sign In</string>
+    <string name="SignInHeader">Sign In</string>
+    <string name="lblUserNameSignIn">Username:</string>
+    <string name="lblPasswordSignIn">Password:</string>
+    <string name="SignInBtn">Sign-In</string>
+    <string name="lblErrorSignIn">**The username and password do not match**</string>
+    <string name="title_activity_pref2">Preferences</string>
+    <string name="MatchMade">Click here to see your match!</string>
+    <string name="SentLove">You sent love</string>
+    <string name="title_activity_presonal_profile2">Personal Profile</string>
+
+
+
+</resources>

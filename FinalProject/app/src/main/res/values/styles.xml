@@ -1,0 +1,51 @@
+<resources>
+
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+
+    </style>
+
+    <style name="HomePageColor" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:background">@color/HomePageBackground2</item>
+    </style>
+
+    <style name="NewAccountColor" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:background">@color/NewAccountBG</item>
+        <item name="android:backgroundTint">@color/NewAccountBGTint</item>
+    </style>
+
+
+    <style name="NewAccountColorTitle" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:background">@color/Red</item>
+        <item name="android:textColor">@color/White</item>
+    </style>
+
+
+    <style name="Preferences" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:background">#ffd55b</item>
+        <item name="android:textColor">@color/White</item>
+    </style>
+
+    <style name="Preferences2BG" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:background">#ffd689</item>
+       </style>
+
+
+    <style name="PreferencesTitle" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:background">#ff8d75</item>
+        <item name="android:textColor">#fff8f3</item>
+        <item name="android:textSize">35dp</item>
+    </style>
+
+    <style name="SignIn" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:background">#a7dcdb90</item>
+    </style>
+
+    <style name="SignInTitle" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:background">#ecc8dded</item>
+        <item name="android:textColor">#fff8f3</item>
+        <item name="android:textSize">25dp</item>
+    </style>
+
+</resources>
